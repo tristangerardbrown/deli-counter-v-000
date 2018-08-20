@@ -23,5 +23,5 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli[0]}."
   end
-  katz.deli.pop
+  katz_deli.pop
 end
